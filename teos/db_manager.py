@@ -172,6 +172,7 @@ class DBManager:
     def load_watcher_appointments(self, include_triggered=False):
         """
         Loads all the appointments from the database (all entries with the ``WATCHER_PREFIX`` prefix).
+
         Args:
             include_triggered (:obj:`bool`): Whether to include the appointments flagged as triggered or not. ``False``
                 by default.
