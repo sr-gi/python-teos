@@ -66,7 +66,7 @@ def serve(rpc_bind, rpc_port, internal_api_endpoint):
         rpc_bind (:obj:`str`): the IP or host where the RPC server will be hosted.
         rpc_port (:obj:`int`): the port where the RPC server will be hosted.
         internal_api_endpoint (:obj:`str`): the endpoint where to reach the internal (gRPC) api.
-    """
+      """
 
     rpc = RPC(rpc_bind, rpc_port, internal_api_endpoint)
     rpc.rpc_server.start()

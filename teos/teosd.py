@@ -2,7 +2,7 @@ import os
 import daemon
 import subprocess
 from sys import argv, exit
-from multiprocessing import Process
+from threading import Thread
 from getopt import getopt, GetoptError
 from signal import signal, SIGINT, SIGQUIT, SIGTERM
 
@@ -213,7 +213,7 @@ def main(config):
                     f"min_to_self_delay='{config.get('MIN_TO_SELF_DELAY')}', log_file='{config.get('LOG_FILE')}')",
                 ]
             )
-            Process(
+            Thread(
                 target=rpc.serve,
                 args=(config.get("RPC_BIND"), config.get("RPC_PORT"), INTERNAL_API_ENDPOINT),
                 daemon=True,
