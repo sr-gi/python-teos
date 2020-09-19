@@ -339,6 +339,7 @@ class Watcher:
             :obj:`AppointmentLimitReached`: If the tower cannot hold more appointments (cap reached).
             :obj:`AuthenticationFailure`: If the user cannot be authenticated.
             :obj:`NotEnoughSlots`: If the user does not have enough available slots, so the appointment is rejected.
+            :obj:`SubscriptionExpired`: If the user subscription has expired.
         """
 
         if len(self.appointments) >= self.max_appointments:
@@ -347,6 +348,7 @@ class Watcher:
             raise AppointmentLimitReached(message)
 
         user_id = self.gatekeeper.authenticate_user(appointment.serialize(), user_signature)
+        self.gatekeeper.check_subscription_expiry(user_id)
         start_block = self.block_processor.get_block(self.last_known_block).get("height")
         extended_appointment = ExtendedAppointment(
             appointment.locator,

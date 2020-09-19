@@ -14,6 +14,12 @@ class NotEnoughSlots(ValueError):
     pass
 
 
+class SubscriptionExpired(ValueError):
+    """Raised when trying to subtract more slots than a user has available."""
+
+    pass
+
+
 class AuthenticationFailure(Exception):
     """
     Raised when a user can not be authenticated. Either the user public key cannot be recovered or the user is
@@ -153,19 +159,37 @@ class Gatekeeper:
 
         Raises:
             :obj:`AuthenticationFailure`: if the user cannot be authenticated.
+            :obj:`SubscriptionExpired`: if the subscription has expired.
         """
 
         try:
             rpk = Cryptographer.recover_pk(message, signature)
             user_id = Cryptographer.get_compressed_pk(rpk)
 
-            if user_id in self.registered_users:
-                return user_id
-            else:
+            if user_id not in self.registered_users:
                 raise AuthenticationFailure("User not found.")
+
+            return user_id
 
         except (InvalidParameter, InvalidKey, SignatureError):
             raise AuthenticationFailure("Wrong message or signature.")
+
+    def check_subscription_expiry(self, user_id):
+        """
+        Checks if a subscription has expired.
+
+        Args:
+            user_id(:obj:`str`): the public key that identifies the user (33-bytes hex str).
+
+        Raises:
+            :obj:`SubscriptionExpired`: If the subscription has expired.
+        """
+
+        current_height = self.block_processor.get_block_count()
+        if current_height > self.registered_users[user_id].subscription_expiry + self.expiry_delta:
+            raise SubscriptionExpired(
+                f"The subscription expired at {self.registered_users[user_id].subscription_expiry}"
+            )
 
     def add_update_appointment(self, user_id, uuid, ext_appointment):
         """
