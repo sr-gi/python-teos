@@ -336,7 +336,9 @@ def test_add_appointment_no_slots(watcher, generate_dummy_appointment):
     # Appointments from register users with no available slots should aso fail
     user_sk, user_pk = generate_keypair()
     user_id = Cryptographer.get_compressed_pk(user_pk)
-    watcher.gatekeeper.registered_users[user_id] = UserInfo(available_slots=0, subscription_expiry=10)
+    watcher.gatekeeper.registered_users[user_id] = UserInfo(
+        available_slots=0, subscription_expiry=watcher.block_processor.get_block_count() + 1
+    )
 
     appointment, dispute_tx = generate_dummy_appointment()
     appointment_signature = Cryptographer.sign(appointment.serialize(), user_sk)
@@ -351,7 +353,9 @@ def test_add_appointment(watcher, generate_dummy_appointment):
     user_sk, user_pk = generate_keypair()
     available_slots = 100
     user_id = Cryptographer.get_compressed_pk(user_pk)
-    watcher.gatekeeper.registered_users[user_id] = UserInfo(available_slots=available_slots, subscription_expiry=10)
+    watcher.gatekeeper.registered_users[user_id] = UserInfo(
+        available_slots=available_slots, subscription_expiry=watcher.block_processor.get_block_count() + 1
+    )
 
     appointment, dispute_tx = generate_dummy_appointment()
     appointment_signature = Cryptographer.sign(appointment.serialize(), user_sk)
@@ -383,7 +387,7 @@ def test_add_appointment(watcher, generate_dummy_appointment):
     another_user_sk, another_user_pk = generate_keypair()
     another_user_id = Cryptographer.get_compressed_pk(another_user_pk)
     watcher.gatekeeper.registered_users[another_user_id] = UserInfo(
-        available_slots=available_slots, subscription_expiry=10
+        available_slots=available_slots, subscription_expiry=watcher.block_processor.get_block_count() + 1
     )
 
     appointment_signature = Cryptographer.sign(appointment.serialize(), another_user_sk)
@@ -403,7 +407,9 @@ def test_add_appointment_in_cache(watcher, generate_dummy_appointment):
     # Generate an appointment and add the dispute txid to the cache
     user_sk, user_pk = generate_keypair()
     user_id = Cryptographer.get_compressed_pk(user_pk)
-    watcher.gatekeeper.registered_users[user_id] = UserInfo(available_slots=1, subscription_expiry=10)
+    watcher.gatekeeper.registered_users[user_id] = UserInfo(
+        available_slots=1, subscription_expiry=watcher.block_processor.get_block_count() + 1
+    )
 
     appointment, dispute_tx = generate_dummy_appointment()
 
@@ -439,7 +445,9 @@ def test_add_appointment_in_cache_invalid_blob(watcher):
     # Generate an appointment with an invalid transaction and add the dispute txid to the cache
     user_sk, user_pk = generate_keypair()
     user_id = Cryptographer.get_compressed_pk(user_pk)
-    watcher.gatekeeper.registered_users[user_id] = UserInfo(available_slots=1, subscription_expiry=10)
+    watcher.gatekeeper.registered_users[user_id] = UserInfo(
+        available_slots=1, subscription_expiry=watcher.block_processor.get_block_count() + 1
+    )
 
     # We need to create the appointment manually
     commitment_tx, commitment_txid, penalty_tx = create_txs()
@@ -479,7 +487,9 @@ def test_add_appointment_in_cache_invalid_transaction(watcher, generate_dummy_ap
     # Generate an appointment that cannot be decrypted and add the dispute txid to the cache
     user_sk, user_pk = generate_keypair()
     user_id = Cryptographer.get_compressed_pk(user_pk)
-    watcher.gatekeeper.registered_users[user_id] = UserInfo(available_slots=1, subscription_expiry=10)
+    watcher.gatekeeper.registered_users[user_id] = UserInfo(
+        available_slots=1, subscription_expiry=watcher.block_processor.get_block_count() + 1
+    )
 
     appointment, dispute_tx = generate_dummy_appointment()
     appointment.encrypted_blob = appointment.encrypted_blob[::-1]
@@ -509,7 +519,9 @@ def test_add_too_many_appointments(watcher, generate_dummy_appointment):
     user_sk, user_pk = generate_keypair()
     available_slots = 100
     user_id = Cryptographer.get_compressed_pk(user_pk)
-    watcher.gatekeeper.registered_users[user_id] = UserInfo(available_slots=available_slots, subscription_expiry=10)
+    watcher.gatekeeper.registered_users[user_id] = UserInfo(
+        available_slots=available_slots, subscription_expiry=watcher.block_processor.get_block_count() + 1
+    )
 
     # Appointments on top of the limit should be rejected
     watcher.appointments = dict()
