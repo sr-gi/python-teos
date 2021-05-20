@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1696 815" style="enable-background:new 0 0 1696 815;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;enable-background:new    ;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'ArialMT';}
+	.st3{font-size:17.4977px;}
+	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:11.7736,11.7736;}
+	.st6{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st7{font-size:8.7488px;}
+	.st8{font-size:17.5707px;}
+	.st9{font-size:15px;}
+	.st10{fill:none;}
+	.st11{font-size:16px;}
+	.st12{enable-background:new    ;}
+	.st13{fill:#F7931A;}
+	.st14{font-size:12px;}
+	svg { background-color: white; }
+</style>
+<path class="st0" d="M0,0h1696v815H0V0z"/>
+<g>
+	<rect x="92.5" y="156.5" class="st1" width="98.7" height="44.5"/>
+	<path d="M190.7,157v43.5H93V157H190.7 M191.7,156H92v45.5h99.7V156L191.7,156z"/>
+</g>
+<text transform="matrix(1 0 0 1 127.2466 185.1055)" class="st2 st3">CLI</text>
+<g>
+	<rect x="92.5" y="294.8" class="st1" width="98.7" height="44.5"/>
+	<path d="M190.7,295.3v43.5H93v-43.5H190.7 M191.7,294.3H92v45.5h99.7V294.3L191.7,294.3z"/>
+</g>
+<text transform="matrix(1 0 0 1 114.9951 323.2534)" class="st2 st3">CLIENT</text>
+<g>
+	<rect x="340.4" y="156.5" class="st1" width="98.7" height="44.5"/>
+	<path d="M438.6,157v43.5h-97.7V157H438.6 M439.6,156h-99.7v45.5h99.7L439.6,156L439.6,156z"/>
+</g>
+<g>
+	<rect x="340.4" y="294.8" class="st1" width="98.7" height="44.5"/>
+	<path d="M438.6,295.3v43.5h-97.7v-43.5H438.6 M439.6,294.3h-99.7v45.5h99.7L439.6,294.3L439.6,294.3z"/>
+</g>
+<g>
+	<rect x="603.4" y="156.5" class="st1" width="115.1" height="185.6"/>
+	<path d="M718,157v184.6H603.9V157H718 M719,156H602.9v186.6H719V156L719,156z"/>
+</g>
+<g>
+	<g>
+		<line class="st4" x1="263.5" y1="63.5" x2="263.5" y2="69.5"/>
+		<line class="st5" x1="263.5" y1="81.3" x2="262.5" y2="687.6"/>
+		<line class="st4" x1="262.5" y1="693.5" x2="262.5" y2="699.5"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 109.8325 47.4541)" class="st2 st3">User side</text>
+<text transform="matrix(1 0 0 1 328.4902 47.3408)" class="st2 st3">Tower side</text>
+<g>
+	<g>
+		<line class="st6" x1="191.4" y1="178.5" x2="329.4" y2="178.2"/>
+		<g>
+			<polygon points="339.3,178.2 325.4,183.9 328.7,178.2 325.4,172.5 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="191.1" y1="317.3" x2="330" y2="317"/>
+		<g>
+			<polygon points="339.9,317 326,322.7 329.3,317 325.9,311.3 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 355.0483 185.1055)" class="st2 st3">RPC API</text>
+<text transform="matrix(1 0 0 1 354.085 323.1396)" class="st2 st3">HTTP API</text>
+<text transform="matrix(1 0 0 1 619.7637 247.4839)" class="st2 st3">INTERNAL</text>
+<text transform="matrix(1 0 0 1 644.1136 268.4839)" class="st2 st3">API</text>
+<g>
+	<g>
+		<polyline class="st6" points="439.8,177.8 512.5,177.6 512.5,217.3 512.5,217.3 593,217.3 		"/>
+		<g>
+			<polygon points="602.9,217.3 589,223 592.3,217.3 589,211.6 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="st6" points="439.7,317 511.9,317 511.9,277.3 512,277.3 593,277.5 		"/>
+		<g>
+			<polygon points="602.9,277.5 588.9,283.2 592.2,277.5 588.9,271.8 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 194.5723 173.5244)" class="st2 st7">gRPC</text>
+<text transform="matrix(1 0 0 1 444.272 170.2598)" class="st2 st7">gRPC</text>
+<text transform="matrix(1 0 0 1 444.272 309.6577)" class="st2 st7">gRPC</text>
+<g>
+	<g>
+		<line class="st6" x1="944.1" y1="248.3" x2="1031.1" y2="248"/>
+		<g>
+			<polygon points="1041,248 1027.1,253.7 1030.4,248 1027.1,242.4 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="718.5" y1="249.2" x2="805.6" y2="249"/>
+		<g>
+			<polygon points="815.5,248.9 801.5,254.7 804.8,249 801.5,243.3 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="1168.9" y1="247.7" x2="1256" y2="247.4"/>
+		<g>
+			<polygon points="1265.9,247.4 1252,253.1 1255.2,247.4 1251.9,241.8 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="816.3" y="226.3" class="st1" width="127" height="45.7"/>
+		<path d="M942.8,226.8v44.7h-126v-44.7H942.8 M943.8,225.8h-128v46.7h128V225.8L943.8,225.8z"/>
+	</g>
+	<text transform="matrix(0.9958 0 0 1 837.1973 254.9601)" class="st2 st8">WATCHER</text>
+</g>
+<g>
+	<g>
+		<rect x="1041.3" y="226.3" class="st1" width="127" height="45.7"/>
+		<path d="M1167.8,226.8v44.7h-126v-44.7H1167.8 M1168.8,225.8h-128v46.7h128V225.8L1168.8,225.8z"/>
+	</g>
+	<text transform="matrix(0.9958 0 0 1 1050.4902 254.9601)" class="st2 st8">RESPONDER</text>
+</g>
+<g>
+	<g>
+		<rect x="1266.3" y="224.3" class="st1" width="127" height="45.7"/>
+		<path d="M1392.8,224.8v44.7h-126v-44.7H1392.8 M1393.8,223.8h-128v46.7h128V223.8L1393.8,223.8z"/>
+	</g>
+	<text transform="matrix(0.9958 0 0 1 1291.1465 252.9601)" class="st2 st8">CARRIER</text>
+</g>
+<g>
+	<g>
+		<rect x="1087.3" y="85.7" class="st1" width="127" height="45.7"/>
+		<path d="M1213.8,86.2v44.7h-126V86.2H1213.8 M1214.8,85.2h-128v46.7h128V85.2L1214.8,85.2z"/>
+	</g>
+	<text transform="matrix(0.9958 0 0 1 1128.2012 104.3238)" class="st2 st9">USERS</text>
+	<text transform="matrix(0.9958 0 0 1 1106.4932 122.3238)" class="st2 st9">DBMANAGER</text>
+</g>
+<g>
+	<g>
+		<rect x="924.3" y="141.7" class="st1" width="127" height="45.7"/>
+		<path d="M1050.8,142.2v44.7h-126v-44.7H1050.8 M1051.8,141.2h-128v46.7h128V141.2L1051.8,141.2z"/>
+	</g>
+	<text transform="matrix(0.9958 0 0 1 929.416 170.3239)" class="st2 st8">GATEKEEPER</text>
+</g>
+<g>
+	<g>
+		<polyline class="st6" points="1077.1,105 987,105 987,104 987,141 		"/>
+		<g>
+			<polygon points="1087,105 1073.1,99.3 1076.4,105 1073.1,110.7 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="879" y1="343" x2="914.1" y2="343"/>
+		<g>
+			<polygon points="924,343 910.1,348.7 913.4,343 910.1,337.3 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="879" y1="423" x2="914.1" y2="423"/>
+		<g>
+			<polygon points="924,423 910.1,428.7 913.4,423 910.1,417.3 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="st6" points="917.1,502 878,502 878,503 878,272 		"/>
+		<g>
+			<polygon points="927,502 913.1,496.3 916.4,502 913.1,507.7 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="1104" y1="343" x2="1061.2" y2="343.1"/>
+		<g>
+			<polygon points="1051.3,343.1 1065.3,337.4 1062,343.1 1065.3,348.8 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="1103" y1="423" x2="1061.2" y2="423.1"/>
+		<g>
+			<polygon points="1051.3,423.1 1065.3,417.4 1062,423.1 1065.3,428.8 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="st6" points="1064.9,502 1104.3,502 1104.3,503 1104.3,272.1 		"/>
+		<g>
+			<polygon points="1055,502 1068.9,507.7 1065.6,502 1068.9,496.3 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="st6" points="914.1,164 878,164 878,226 		"/>
+		<g>
+			<polygon points="924,164 910.1,158.3 913.4,164 910.1,169.7 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="st6" points="1060.9,164 1097,164 1097,226 		"/>
+		<g>
+			<polygon points="1051,164 1064.9,169.7 1061.6,164 1064.9,158.3 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<rect x="927.9" y="631.3" class="st1" width="127" height="45.7"/>
+	<path d="M1054.4,631.8v44.7h-126v-44.7H1054.4 M1055.4,630.8h-128v46.7h128V630.8L1055.4,630.8z"/>
+</g>
+<text transform="matrix(0.9958 0 0 1 932.0791 658.9777)" class="st2 st9">CHAINMONITOR</text>
+<line class="st10" x1="1046" y1="654" x2="1151" y2="654"/>
+<g>
+	<g>
+		<polyline class="st6" points="1159,282.9 1159,654 1159,653 1056,653 		"/>
+		<g>
+			<polygon points="1159,273 1153.3,286.9 1159,283.6 1164.7,286.9 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 1174.4995 440.6072)" class="st2 st11">BLOCK</text>
+<text transform="matrix(1 0 0 1 1173.3594 459.8073)" class="st2 st11">QUEUE</text>
+<text transform="matrix(1 0 0 1 752.9852 440.6069)" class="st2 st11">BLOCK</text>
+<text transform="matrix(1 0 0 1 751.8452 459.8069)" class="st2 st11">QUEUE</text>
+<g>
+	<g>
+		<g>
+			<polyline class="st6" points="824,282.9 824,653 824,652 928,652 			"/>
+			<g>
+				<polygon points="824,273 818.3,286.9 824,283.6 829.7,286.9 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="st6" points="1517,470.1 1517,247 1394,247 		"/>
+		<g>
+			<polygon points="1517,480 1522.7,466.1 1517,469.4 1511.3,466.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<line class="st6" x1="991" y1="687.9" x2="991" y2="712"/>
+			<g>
+				<polygon points="991,678 985.3,691.9 991,688.6 996.7,691.9 				"/>
+			</g>
+		</g>
+	</g>
+	<line class="st6" x1="990" y1="712" x2="1518" y2="712"/>
+	<g>
+		<g>
+			<line class="st6" x1="1517" y1="712" x2="1517" y2="618.9"/>
+			<g>
+				<polygon points="1517,609 1522.7,622.9 1517,619.6 1511.3,622.9 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="st6" points="1038.9,526 1038.9,544 1038.9,543 1444.2,543 		"/>
+		<g>
+			<polygon points="1453,543 1440.6,548.7 1443.6,543 1440.6,537.3 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 1533.8066 368.4927)" class="st2 st9">RPC</text>
+<text transform="matrix(1 0 0 1 1253.6956 535.3862)" class="st2 st9">RPC</text>
+<text transform="matrix(1 0 0 1 1212.7014 704.3862)" class="st2 st9">ZMQ + RPC</text>
+<text transform="matrix(1 0 0 1 195.6995 312.5515)" class="st2 st7">http</text>
+<g>
+	<rect x="340.2" y="389.7" class="st1" width="98.7" height="44.5"/>
+	<path d="M438.4,390.2v43.5h-97.7v-43.5H438.4 M439.4,389.2h-99.7v45.5h99.7L439.4,389.2L439.4,389.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 345.861 418.1183)" class="st2 st9">INSPECTOR</text>
+<g>
+	<g>
+		<line class="st6" x1="390" y1="340" x2="390" y2="380.1"/>
+		<g>
+			<polygon points="390,390 384.3,376.1 390,379.4 395.7,376.1 			"/>
+		</g>
+	</g>
+</g>
+<path class="st12" d="M0,0"/>
+<g>
+	<g transform="translate(0.00630876,-0.00301984)">
+		<path class="st13" d="M1578.1,560c-8.4,33.6-42.4,54-75.9,45.6c-33.6-8.4-54-42.4-45.6-75.9c8.4-33.6,42.4-54,75.9-45.6
+			C1566.1,492.4,1586.5,526.5,1578.1,560z"/>
+		<path class="st1" d="M1545,535.9c1.2-8.3-5.1-12.8-13.8-15.8l2.8-11.3l-6.9-1.7l-2.7,11c-1.8-0.5-3.7-0.9-5.5-1.3l2.8-11.1
+			l-6.9-1.7l-2.8,11.3c-1.5-0.3-3-0.7-4.4-1l0,0l-9.5-2.4l-1.8,7.3c0,0,5.1,1.2,5,1.2c2.8,0.7,3.3,2.5,3.2,4l-3.2,12.9
+			c0.2,0,0.4,0.1,0.7,0.2c-0.2-0.1-0.5-0.1-0.7-0.2l-4.5,18c-0.3,0.8-1.2,2.1-3.2,1.6c0.1,0.1-5-1.2-5-1.2l-3.4,7.9l8.9,2.2
+			c1.7,0.4,3.3,0.9,4.9,1.3l-2.8,11.4l6.9,1.7l2.8-11.3c1.9,0.5,3.7,1,5.5,1.4l-2.8,11.2l6.9,1.7l2.8-11.4
+			c11.7,2.2,20.5,1.3,24.2-9.3c3-8.5-0.1-13.5-6.3-16.7C1540.7,545,1544.1,542,1545,535.9z M1529.3,558c-2.1,8.5-16.5,3.9-21.2,2.8
+			l3.8-15.1C1516.5,546.8,1531.5,549.1,1529.3,558z M1531.4,535.8c-1.9,7.8-13.9,3.8-17.8,2.9l3.4-13.7
+			C1520.9,525.9,1533.4,527.7,1531.4,535.8z"/>
+	</g>
+</g>
+<path class="st10" d="z"/>
+<g>
+	<g>
+		<line class="st6" x1="989.3" y1="630.8" x2="989.7" y2="199"/>
+		<g>
+			<polygon points="989.7,189.2 995.4,203.1 989.7,199.8 984,203.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="927.3" y="480.3" class="st1" width="127" height="45.7"/>
+		<path d="M1053.8,480.8v44.7h-126v-44.7H1053.8 M1054.8,479.8h-128v46.7h128V479.8L1054.8,479.8z"/>
+	</g>
+	<text transform="matrix(0.9958 0 0 1 932.3193 505.9601)" class="st2 st14">BLOCKPROCESSOR</text>
+</g>
+<g>
+	<g>
+		<rect x="924.3" y="400.3" class="st1" width="127" height="45.7"/>
+		<path d="M1050.8,400.8v44.7h-126v-44.7H1050.8 M1051.8,399.8h-128v46.7h128V399.8L1051.8,399.8z"/>
+	</g>
+	<text transform="matrix(0.9958 0 0 1 946.4609 428.9601)" class="st2 st8">CLEANER</text>
+</g>
+<g>
+	<g>
+		<rect x="924.3" y="320.3" class="st1" width="127" height="45.7"/>
+		<path d="M1050.8,320.8v44.7h-126v-44.7H1050.8 M1051.8,319.8h-128v46.7h128V319.8L1051.8,319.8z"/>
+	</g>
+	<text transform="matrix(0.9958 0 0 1 930.0283 338.9601)" class="st2 st9">APPOINTMENTS</text>
+	<text transform="matrix(0.9958 0 0 1 938.4932 356.9601)" class="st2 st9">DBMANAGER</text>
+</g>
+<text transform="matrix(1 0 0 1 924.3701 583.067)" class="st2 st11">BLOCK</text>
+<text transform="matrix(1 0 0 1 923.2301 602.267)" class="st2 st11">QUEUE</text>
+</svg>
